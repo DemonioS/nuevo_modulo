@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+
+        <act_window id="hr_isapre_action"
+                    name="Isapres"
+                    res_model="hr.isapre"
+                    view_type="form"
+                    view_mode="tree,form"
+        />
+
+        <menuitem id="hr_isapres_menu"
+                  parent="hr.menu_hr_main"
+                  action="hr_isapre_action"
+                  sequence="6"
+        />
+
+        <act_window id="hr_afp_action"
+                    name="Fondos de Pension"
+                    res_model="hr.afp"
+                    view_type="form"
+                    view_mode="tree,form"
+        />
+
+        <menuitem id="hr_afp_menu"
+                  parent="hr.menu_hr_main"
+                  action="hr_afp_action"
+                  sequence="7"
+        />
+        
+    </data>
+</openerp>
